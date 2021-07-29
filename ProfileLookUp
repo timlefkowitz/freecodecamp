@@ -15,7 +15,7 @@ function lookUpProfile(name, prop){
       return "Contact not here";
 }
 
-var data = lookUpProfile("akira", "likes");
+var data = lookUpProfile("Kristian", "lastName");
 
 console.log(data);
 
