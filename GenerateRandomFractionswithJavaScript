@@ -9,7 +9,10 @@ function randomFraction() {
 
   // Only change code below this line
 
-  return 0;
+
+
+  // durrrrrrrr
+  return Math.random();
 
   // Only change code above this line
 }
