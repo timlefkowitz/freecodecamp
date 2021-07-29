@@ -2,8 +2,15 @@
 //freeCodeCamp Challenges
 
 
-function checkEqual(a, b) {
+// this is neat writing Ternary Operators, I would like to write more 
 
+function checkEqual(a, b) {
+return a === b ? "Equal" : "Not Equal";
+}
+
+
+function checkIsGreater(a, b){
+return a > b ? "is greater" : "is not Greater";
 }
 
 checkEqual(1, 2);
