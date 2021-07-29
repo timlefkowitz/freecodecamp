@@ -1,0 +1,17 @@
+/*
+      This is for freecodecamps profile look up challenge
+      July 28th 2021
+*/
+
+function lookUpProfile(name, prop){
+    for (var i = 0 ; i < ; i++){
+    
+    
+    
+    }
+}
+
+var data = lookUpProfile("akira", "likes");
+
+console.log(data);
+
