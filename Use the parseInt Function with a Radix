@@ -1,0 +1,12 @@
+//Use the parseInt Function with a Radix
+//freeCodeCamp
+
+
+function convertToInteger(str) {
+
+    //within parseInt we can declare where we want parse to stop? this is how we can input a binary number
+  return parseInt(str,2)
+
+}
+
+convertToInteger("10011");
