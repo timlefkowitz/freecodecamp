@@ -4,11 +4,15 @@
 */
 
 function lookUpProfile(name, prop){
-    for (var i = 0 ; i < ; i++){
-    
-    
-    
-    }
+
+
+    for (var i = 0 ; i < contacts.length ; i++){
+      if(contacts[i].firstName === name)
+      return contacts[i][prop] || "No such property";
+  
+  }
+}
+      return "Contact not here";
 }
 
 var data = lookUpProfile("akira", "likes");
