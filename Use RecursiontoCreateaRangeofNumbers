@@ -38,5 +38,11 @@
 
 
 function rangeOfNumbers(startNum, endNum) {
+
+//lets try a if statement to see if endNum - startNum = 0
+// example 22 - 15 = 7
+  if(endNum - startNum === 0){
+    return [startNum];
+  }
   return [];
 };
