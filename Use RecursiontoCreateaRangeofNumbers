@@ -40,9 +40,15 @@
 function rangeOfNumbers(startNum, endNum) {
 
 //lets try a if statement to see if endNum - startNum = 0
-// example 22 - 15 = 7
+// example 22 - 15 = 7 = else ${numbers} = push into blank array
+
   if(endNum - startNum === 0){
     return [startNum];
+  } else {
+    var numbers = rangeOfNumbers(startNum, endNum - 1);
+    console.log(numbers);
+    numbers.push(endNum);
+    return numbers;
   }
   return [];
 };
