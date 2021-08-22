@@ -22,9 +22,11 @@
 
 // Update the code so it only uses the let keyword.
 
+// Yay and easy one lol
 
-var catName;
-var quote;
+
+let catName;
+let quote;
 function catTalk() {
   "use strict";
 
