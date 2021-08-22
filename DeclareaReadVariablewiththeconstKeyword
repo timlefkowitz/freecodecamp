@@ -20,14 +20,15 @@
 
 
 // {}{}{}{}{}{}
-
 function printManyTimes(str) {
 
   // Only change code below this line
+  
+  // okay this one had me learning a little, const variables should be declared in all caps 
 
-  var sentence = str + " is cool!";
-  for (var i = 0; i < str.length; i+=2) {
-    console.log(sentence);
+  const SENTENCE = str + " is cool!";
+  for (let i = 0; i < str.length; i+=2) {
+    console.log(SENTENCE);
   }
 
   // Only change code above this line
