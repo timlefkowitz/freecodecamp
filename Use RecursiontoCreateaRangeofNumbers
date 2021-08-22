@@ -1,0 +1,9 @@
+//Use Recursion to Create a Range of Numbers
+// some life notes : macbook is down and will be back up on sunday, looking to a full week of coding
+//                  I've already gone through this portiton of javascript on freecodecamp on a different account and i'm trying to catch up on my main
+// thank you for checking out what i've been doing :D
+
+
+function rangeOfNumbers(startNum, endNum) {
+  return [];
+};
