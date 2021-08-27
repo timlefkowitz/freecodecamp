@@ -30,6 +30,12 @@
 // The Vegetable class allows you to create a vegetable object with a property name that gets passed to the constructor.
 
 // Only change code below this line
+// nice constructors in javascript
+class SpaceShuttle {
+  constructor(targetPlanet) {
+    this.targetPlanet = targetPlanet;
+  }
+}
 
 // Only change code above this line
 
@@ -38,6 +44,8 @@ class Vegetable {
     this.name = name;
   }
 }
+
+
 
 const carrot = new Vegetable("carrot");
 console.log(carrot.name); // => should be 'carrot'
