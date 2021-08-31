@@ -9,9 +9,21 @@
 // myMathModule.subtract(5,3);
 // The code in this file requires the contents of the file: string_functions.js, that is in the same directory as the current file. Use the import * as syntax to import everything from the file into an object called stringFunctions.
 
+import * as myMathModule from "./math_functions.js";
+
+// Only change code above this line
+// I always want to see the example running, here we are just importing every method from a file and showing how to use
+// two methods, add and subtract
+
+
+import * as stringFunctions from "./string_functions.js";
 
 
 // Only change code above this line
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
 
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
