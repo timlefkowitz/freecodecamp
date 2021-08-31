@@ -9,6 +9,11 @@
 // }
 // The above is a common way to export a single function, but you can achieve the same thing like this:
 
+
+
+// this is just a different way of doing it VVV
+
+
 // const add = (x, y) => {
 //   return x + y;
 // }
@@ -22,6 +27,9 @@
 const uppercaseString = (string) => {
   return string.toUpperCase();
 }
+
+// This looks to be the easiest 
+// export { uppercaseString, lowercaseString };
 
 const lowercaseString = (string) => {
   return string.toLowerCase()
