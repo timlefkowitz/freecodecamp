@@ -1,6 +1,10 @@
 <style type='text/scss'>
 
+$colors: (color1: blue, color2: black, color3: red);
 
+@each $key, $color in $colors {
+  .#{$color}-bg {background-color: $color;}
+}
 
   div {
     height: 200px;
@@ -11,6 +15,8 @@
 <div class="blue-bg"></div>
 <div class="black-bg"></div>
 <div class="red-bg"></div>
+
+
 <!-- 
 Use @each to Map Over Items in a List
 The last challenge showed how the @for directive uses a starting and ending value to loop a certain number of times. Sass also offers the @each directive which loops over each item in a list or map. On each iteration, the variable gets assigned to the current value from the list or map.
