@@ -21,6 +21,9 @@
 // There is a div with id='challenge-node' available for you to use. Make 
 // sure you don't change the JSX constant.
 
+// Change code below this line
+
+
 const JSX = (
   <div>
     <h1>Hello World</h1>
@@ -28,3 +31,4 @@ const JSX = (
   </div>
 );
 // Change code below this line
+ReactDOM.render(JSX, document.getElementById("challenge-node"));
