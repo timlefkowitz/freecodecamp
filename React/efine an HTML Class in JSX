@@ -1,8 +1,12 @@
-const JSX = (
-  <div className='myDiv'>
-    <h1>Add a class to this div</h1>
-  </div>
-);
+const MyComponent = function() {
+  // Change code below this line
+  return (
+<div>Hello World</div>
+  )
+
+
+  // Change code above this line
+}
 
 // Define an HTML Class in JSX
 // Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
